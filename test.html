@@ -17,6 +17,27 @@
 			.actions{padding:10px 30px;display: none;} .footer{position:absolute;bottom:0;width:100%;text-align:center;color:#999;font-size:12px;line-height:180%;padding-bottom:
 			20px} *{margin:0;padding:0} img{max-width:100%;height:auto}
 		</style>
+		<script> 
+                document.oncontextmenu=new Function("return false") 
+                document.onselectstart=new Function("return false") 
+                </script>
+		<script>
+		 document.body.onkeydown  = function(e){
+             var keyCode = e.keyCode || e.which || e.charCode;
+              var ctrlKey = e.ctrlKey || e.metaKey;
+              if(ctrlKey && (keyCode == 83 || keyCode == 85 || keyCode == 73)) {
+                  e.preventDefault();
+                  return false;
+          }
+          else if(ctrlKey && (keyCode == 83 || keyCode == 85 || keyCode == 67)) {
+              e.preventDefault();
+              return false;         
+              }else if(keyCode && keyCode == 123){
+                  return false;
+              }
+         }
+	
+		</script> 
 	</head>
 	<body>
 <div style="text-align:center;padding:60px 10px 50px 10px;">
