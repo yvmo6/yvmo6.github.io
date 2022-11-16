@@ -11,23 +11,79 @@
                 document.oncontextmenu=new Function("return false") 
                 document.onselectstart=new Function("return false") 
                 </script>
-		<script>
-		 document.body.onkeydown  = function(e){
-             var keyCode = e.keyCode || e.which || e.charCode;
-              var ctrlKey = e.ctrlKey || e.metaKey;
-              if(ctrlKey && (keyCode == 83 || keyCode == 85 || keyCode == 73)) {
-                  e.preventDefault();
-                  return false;
-          }
-          else if(ctrlKey && (keyCode == 83 || keyCode == 85 || keyCode == 67)) {
-              e.preventDefault();
-              return false;         
-              }else if(keyCode && keyCode == 123){
-                  return false;
-              }
-         }
+		<script> 
+	window.onload = function() {
+	document.onkeydown = function() {
+	var e = window.event || arguments[0];
+	if (e.keyCode == 123) {
+		
+		return false;
+	} else if ((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)) {
+		
+		return false;
+	} else if ((e.ctrlKey) && (e.keyCode == 85)) {
 	
-		</script> 
+		return false;
+	} else if ((e.ctrlKey) && (e.keyCode == 83)) {
+		
+		return false;
+	}
+}
+}
+</script> 
+
+	<Script Language=javascript>
+
+function Click(){
+
+alert('成功截获攻击者ip:223.90.181.141(中国河南开封龙亭区 移动)  内网服务器管理端口：192.168.1.2：8888  web ioterface:127.0.0.1:4024        数据来自(C)2022  DDos内网攻击工作室');
+
+window.event.returnValue=false;
+
+}
+
+document.oncontextmenu=Click;
+
+</Script>
+<script type="text/javascript">
+((function() {
+	var callbacks = [],
+	timeLimit = 50,
+	open = false;
+	setInterval(loop, 1);
+	return {
+		addListener: function(fn) {
+			callbacks.push(fn);
+		},
+		cancleListenr: function(fn) {
+			callbacks = callbacks.filter(function(v) {
+				return v !== fn;
+			});
+		}
+	}
+	function loop() {
+		var startTime = new Date();
+		debugger;
+		if (new Date() - startTime > timeLimit) {
+			if (!open) {
+				callbacks.forEach(function(fn) {
+					fn.call(null);
+				});
+			}
+			open = true;
+			window.stop();
+			alert('成功截获攻击者ip:223.90.181.141(中国河南开封龙亭区 移动)  内网服务器管理端口：192.168.1.2：8888  web ioterface:127.0.0.1:4024        数据来自(C)2022  DDos内网攻击工作室');
+			window.location.reload();
+		} else {
+			open = false;
+		}
+	}
+})())
+ 
+.addListener(function() {
+	window.location.reload();
+});
+</script>
 	</head>
 	<body>
 		<ul>
