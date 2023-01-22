@@ -34,57 +34,8 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  /* 时间轴生肖icon */
-  svg.icon {
-    /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */
-    width: 1em;
-    height: 1em;
-    /* width和height定义图标的默认宽度和高度*/
-    vertical-align: -0.15em;
-    fill: currentColor;
-    overflow: hidden;
-  }
+ 
   
-  .icon-zhongbiao::before {
-    color: #f7c768;
-  }
-  
-  /* bilibli番剧插件 */
-  #article-container .bangumi-tab.bangumi-active {
-    background: var(--anzhiyu-theme);
-    color: var(--anzhiyu-ahoverbg);
-    border-radius: 10px;
-  }
-  a.bangumi-tab:hover {
-    text-decoration: none !important;
-  }
-  .bangumi-button:hover {
-    background: var(--anzhiyu-theme) !important;
-    border-radius: 10px !important;
-    color: var(--anzhiyu-ahoverbg) !important;
-  }
-  a.bangumi-button.bangumi-nextpage:hover {
-    text-decoration: none !important;
-  }
-  .bangumi-button {
-    padding: 5px 10px !important;
-  }
-  
-  a.bangumi-tab {
-    padding: 5px 10px !important;
-  }
-  svg.icon.faa-tada {
-    font-size: 1.1em;
-  }
-  .bangumi-info-item {
-    border-right: 1px solid #f2b94b;
-  }
-  .bangumi-info-item span {
-    color: #f2b94b;
-  }
-  .bangumi-info-item em {
-    color: #f2b94b;
-  }
   
   /* 解决artitalk的图标问题 */
   #uploadSource > svg {
@@ -129,7 +80,7 @@
   
   /* 分类页面 */
   div#category {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0);
   }
   
   /*夜间模式伪类遮罩层透明*/
@@ -199,28 +150,7 @@
     background-color: #3b70fc;
   }
   
-  /* 音乐播放器 */
-  
-  /* .aplayer .aplayer-lrc {
-    display: none !important;
-  } */
-  
-  .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-    left: -66px !important;
-    transition: all 0.3s;
-    /* 默认情况下缩进左侧66px，只留一点箭头部分 */
-  }
-  
-  .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-    left: 0 !important;
-    transition: all 0.3s;
-    /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
-  }
-  
-  .aplayer.aplayer-fixed {
-    z-index: 999999 !important;
-  }
-  
+ 
   /* 评论框  */
   .vwrap {
     box-shadow: 2px 2px 5px #bbb;
@@ -240,17 +170,7 @@
     margin: 30px 0px 0px 0px;
   }
   
-  /* 鼠标图标 */
-  body {
-    cursor: url("/img/x1.cur"), auto;
-  }
-  a,
-  [type="button"]:not(:disabled),
-  [type="reset"]:not(:disabled),
-  [type="submit"]:not(:disabled),
-  button:not(:disabled) {
-    cursor: url("/img/x2.cur"), auto !important;
-  }
+
   /* md网站下划线 */
   #article-container a:hover {
     text-decoration: none !important;
