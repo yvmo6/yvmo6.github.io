@@ -16,8 +16,8 @@ function createtime() {
   let currentTimeHtml = "";
   (currentTimeHtml =
     hnum < 18 && hnum >= 9
-      ? `<img class='boardsign' src='https://s1.ax1x.com/2022/11/11/zCGxM9.png' title='上课中~马上放学'><span class='textTip'> <br> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`
-      : `<img class='boardsign' src='https://s1.ax1x.com/2022/11/11/zCGxM9.png' title='放学了就该开开心心的玩耍，嘿嘿~'><span class='textTip'> <br> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`),
+      ? `<img class='boardsign' src='https://s1.ax1x.com/2023/01/22/pSJJLMF.png' title='上课中~马上放学'><span class='textTip'> <br> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`
+      : `<img class='boardsign' src='https://s1.ax1x.com/2023/01/22/pSJJLMF.png' title='放学了就该开开心心的玩耍，嘿嘿~'><span class='textTip'> <br> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`),
     document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = currentTimeHtml);
 }
 setInterval(() => {
