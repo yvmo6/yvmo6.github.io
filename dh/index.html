@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+		<title>首页导航|雨沫</title>
+		<style type="text/css">
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+}
+body 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-image: linear-gradient(45deg, #7A88FF, #7AFFAF);
+}
+ul 
+{
+	position: relative;
+	transform: skewY(-15deg);
+}
+ul li 
+{
+	position: relative;
+	list-style: none;
+	width: 200px;
+	padding: 15px;
+	background: #3e3f46;
+	z-index: calc(1 * var(--i));
+	transition: 0.5s;
+}
+ul li:hover 
+{
+	background: #33a3ee;
+	transform: translateX(-50px);
+}
+ul li::before 
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -40px;
+	width: 40px;
+	height: 100%;
+	background: #2e3133;
+	transform-origin: right;
+	transform: skewY(45deg);
+	transition: 0.5s;
+}
+ul li:hover::before 
+{
+	background: #1f5378;
+}
+ul li::after 
+{
+	content: '';
+	position: absolute;
+	top: -40px;
+	left: 0px;
+	width: 100%;
+	height: 40px;
+	background-image: linear-gradient(45deg, #7A88FF, #7AFFAF);
+	transform-origin: bottom;
+	transform: skewX(45deg);
+	transition: 0.5s;
+}
+ul li:hover::after 
+{
+	background: #2982b9;
+}
+ul li a 
+{
+	text-decoration: none;
+	color: #999;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	transition: 0.5s;
+}
+ul li:hover a
+{
+	color: #fff;
+}
+ul li:last-child::after 
+{
+	box-shadow: -120px 120px 20px rgba(0,0,0,0.25);
+}
+
+</style>
+		<link rel="shortcut icon" href="https://s1.ax1x.com/2022/11/11/zCGxM9.png">
+		<script> 
+                document.oncontextmenu=new Function("return false") 
+                document.onselectstart=new Function("return false") 
+                </script>
+		<script> 
+	window.onload = function() {
+	document.onkeydown = function() {
+	var e = window.event || arguments[0];
+	if (e.keyCode == 123) {
+		
+		return false;
+	} else if ((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)) {
+		
+		return false;
+	} else if ((e.ctrlKey) && (e.keyCode == 85)) {
+	
+		return false;
+	} else if ((e.ctrlKey) && (e.keyCode == 83)) {
+		
+		return false;
+	}
+}
+}
+</script> 
+
+	<Script Language=javascript>
+
+function Click(){
+
+alert('成功截获攻击者ip:223.90.181.141(中国河南开封龙亭区 移动)  内网服务器管理端口：192.168.1.2：8888  web ioterface:127.0.0.1:4024        数据来自(C)2022  DDos内网攻击工作室');
+
+window.event.returnValue=false;
+
+}
+
+document.oncontextmenu=Click;
+
+</Script>
+<script type="text/javascript">
+((function() {
+	var callbacks = [],
+	timeLimit = 50,
+	open = false;
+	setInterval(loop, 1);
+	return {
+		addListener: function(fn) {
+			callbacks.push(fn);
+		},
+		cancleListenr: function(fn) {
+			callbacks = callbacks.filter(function(v) {
+				return v !== fn;
+			});
+		}
+	}
+	function loop() {
+		var startTime = new Date();
+		debugger;
+		if (new Date() - startTime > timeLimit) {
+			if (!open) {
+				callbacks.forEach(function(fn) {
+					fn.call(null);
+				});
+			}
+			open = true;
+			window.stop();
+			alert('成功截获攻击者ip:223.90.181.141(中国河南开封龙亭区 移动)  内网服务器管理端口：192.168.1.2：8888  web ioterface:127.0.0.1:4024        数据来自(C)2022  DDos内网攻击工作室');
+			window.location.reload();
+		} else {
+			open = false;
+		}
+	}
+})())
+ 
+.addListener(function() {
+	window.location.reload();
+});
+</script>
+	</head>
+	<body>
+		<ul>
+		
+			<li style="--i:10;"><a href="test.html">博客|雨沫</a></li>
+			<li style="--i:9;"><a href="https://yvmo.ga/">音乐小站|雨沫</a></li>
+			<li style="--i:8;"><a href="https://cdgo666.tk/">雨沫在线工具箱</a></li>
+			<li style="--i:7;"><a href="https://yvmo.tk/newyears/">新年倒计时|雨沫</a></li>
+			<li style="--i:6;"><a href="https://yvmo.ga/yuanshen/">3.3私服服务器|雨沫</a></li>
+			<li style="--i:5;"><a href="http://cncs.cf/">开封cncs官网</a></li>
+			<li style="--i:4;"><a href="dongman.html">动漫导航|雨沫</a></li>
+			<li style="--i:3;"><a href="https://yvmo.ga/yvmo/win12/">win12|张昊琦</a></li>
+			<li style="--i:2;"><a href="https://yvmo6.gitee.io/yvmo/sanjiaolong/">会打篮球的三角龙(gitee授权搬运)</a></li>
+			<li style="--i:1;"><a href="https://yvmo.ga/by/by2.html">你懂得</a></li>
+		</ul>
+		 
+	</body>
+</html>

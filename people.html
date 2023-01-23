@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+ 
+	<title>
+			雨沫
+		</title>
+		<link rel="shortcut icon" href="https://s1.ax1x.com/2022/11/11/zCGxM9.png">
+	    
+                <script> 
+                document.oncontextmenu=new Function("return false") 
+                document.onselectstart=new Function("return false") 
+                </script>
+		<script> 
+	window.onload = function() {
+	document.onkeydown = function() {
+	var e = window.event || arguments[0];
+	if (e.keyCode == 123) {
+		
+		return false;
+	} else if ((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)) {
+		
+		return false;
+	} else if ((e.ctrlKey) && (e.keyCode == 85)) {
+	
+		return false;
+	} else if ((e.ctrlKey) && (e.keyCode == 83)) {
+		
+		return false;
+	}
+}
+}
+</script> 
+
+	<Script Language=javascript>
+
+function Click(){
+
+alert('成功截获攻击者ip:223.90.181.141(中国河南开封龙亭区 移动)  内网服务器管理端口：192.168.1.2：8888  web ioterface:127.0.0.1:4024        数据来自(C)2022  DDos内网攻击工作室');
+
+window.event.returnValue=false;
+
+}
+
+document.oncontextmenu=Click;
+
+</Script>
+<script type="text/javascript">
+((function() {
+	var callbacks = [],
+	timeLimit = 50,
+	open = false;
+	setInterval(loop, 1);
+	return {
+		addListener: function(fn) {
+			callbacks.push(fn);
+		},
+		cancleListenr: function(fn) {
+			callbacks = callbacks.filter(function(v) {
+				return v !== fn;
+			});
+		}
+	}
+	function loop() {
+		var startTime = new Date();
+		debugger;
+		if (new Date() - startTime > timeLimit) {
+			if (!open) {
+				callbacks.forEach(function(fn) {
+					fn.call(null);
+				});
+			}
+			open = true;
+			window.stop();
+			alert('成功截获攻击者ip:223.90.181.141(中国河南开封龙亭区 移动)  内网服务器管理端口：192.168.1.2：8888  web ioterface:127.0.0.1:4024        数据来自(C)2022  DDos内网攻击工作室');
+			window.location.reload();
+		} else {
+			open = false;
+		}
+	}
+})())
+ 
+.addListener(function() {
+	window.location.reload();
+});
+</script>
+
+<head>
+  <link rel="stylesheet" href="home/style.css">
+  <title>Animated Profile Card</title>
+</head>
+
+<body>
+  <div class="card">
+    <div class="imgBx">
+      <img src="home/MfEzI3.jpg">
+    </div>
+    <div class="content">
+      <div class="details">
+        <h2>雨沫<br><span>复杂的世界一个就够了</span></h2>
+        <div class="data">
+          <h3>342<br><span>Posts</span></h3>
+          <h3>120<br><span>Followers</span></h3>
+          <h3>285<br><span>Following</span></h3>
+        </div>
+        <div class="actionBtn">
+          <a href="dh/">
+          <button>博客</button>
+            </a>
+          <a href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=810253729&website=www.oicqzone.com">
+          <button>QQ</button>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+	
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.wang/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "http://kks235.com/",
+            "path": "index.html",
+            "saved": true,
+            "size": 2692,
+            "children": [
+                {
+                    "url": "http://kks235.com/link.png",
+                    "path": "img/link.png",
+                    "saved": true,
+                    "size": 4713
+                },
+                {
+                    "url": "http://kks235.com/bk.png",
+                    "saved": false
+                },
+                {
+                    "url": "http://kks235.com/bk.png",
+                    "saved": false
+                },
+                {
+                    "url": "https://js.weilekangnet.com:59988/js/tj_baidu_by.js",
+                    "saved": false
+                },
+                {
+                    "url": "http://kks235.com/dh.css",
+                    "path": "css/dh.css",
+                    "saved": true,
+                    "size": 6118
+                }
+            ]
+        }
+    ],
+    "alias": "kks235-com-v25sxey",
+    "info": {
+        "remark": [],
+        "title": "*",
+        "domain": "kks235.com",
+        "origin": "http://kks235.com",
+        "ip": "172.247.172.202",
+        "main": "index.html",
+        "url": "http://kks235.com/",
+        "totalSize": "13.5 kB",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "http://kks235.com/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.wang/"
+            }
+        },
+        "response": {
+            "responseUrl": "http://kks235.com/",
+            "redirects": [],
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx",
+                "date": "Wed, 18 Jan 2023 08:44:08 GMT",
+                "content-type": "text/html",
+                "last-modified": "Thu, 01 Dec 2022 23:18:57 GMT",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "vary": "Accept-Encoding",
+                "etag": "W/\"63893661-969\""
+            }
+        },
+        "time": {
+            "start": "2023-01-18T08:44:43.839Z",
+            "end": "2023-01-18T08:45:14.755Z"
+        }
+    },
+    "options": {
+        "url": "http://kks235.com/",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "formatter": [],
+        "filenameGenerator": "byType"
+    }
+}
