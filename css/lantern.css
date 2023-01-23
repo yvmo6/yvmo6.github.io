@@ -39,10 +39,10 @@
 }
 /* 修改灯笼的字体 */
 .d-box .d1::after {
-    content: 兔年大吉';
+    content: '兔年大吉';
 }
 .d-box1 .d1::after {
-    content: '万事顺遂';
+    content: '心想事成';
 }
 .d-box1 .d1,
 .d-box1 .d2,
